@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio SOUROUR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="./images/logo_size-fotor-bg-remover-20241209221849.png" alt="Logo"></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Accueil</a></li> 
+        <li><a href="#about-me" id="profile-link">Profil</a></li>
+        <li><a href="#">Compétences</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  
+  <div class="container">
+    <h1 class="text">
+      <span class="fixed">Hello</span>
+      <span id="changing-word"></span>
+    </h1>
+    <h2 id="name"></h2>
+    <h3 id="job-title"></h3>
+    <button id="more-info-btn" style="display: none;">Plus d'info</button>
+  </div>
+  <div id="about-me" style="display: none;">
+    <h1>À propos de moi</h1>
+    <img id="about-me-image" src="./images/1720184832495.jpg" alt="Image à propos de moi" />
+    <p>Voici quelques informations sur moi...</p>
+    <!-- Ajoute plus de contenu ici -->
+    <button id="close-about-btn">Fermer</button>
+</div>
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2024 SOUROUR. Tous droits réservés.</p>
+      <ul class="social-links">
+        <li><a href="https://www.facebook.com/sourour.chiekhrouhou.14"><img src="./images/communication.png" alt="Facebook"></a></li>
+        <li><a href="https://x.com/souchiekh78"><img src="./images/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/sourour-cheikhrouhou-b3a72b256/"><img src="./images/linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="https://github.com/sourourcheikh11"><img src="./images/github.png" alt="GitHub"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
